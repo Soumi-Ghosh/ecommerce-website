@@ -20,7 +20,7 @@ mysqli_query($con, $query);
     <link rel="stylesheet" href="style.css">
     <meta http-equiv="refresh" content="4;url=index.php" />
 </head>
-<body>
+<body> 
     <?php
 include 'includes/header_menu.php';
 ?>
