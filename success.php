@@ -6,7 +6,7 @@ $user_id = $_SESSION['user_id'];
 $query = "UPDATE users_products SET status='Confirmed' WHERE user_id='$user_id' AND status='Added to cart'";
 mysqli_query($con, $query);
 ?>
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
