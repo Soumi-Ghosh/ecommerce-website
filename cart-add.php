@@ -1,5 +1,5 @@
 <?php
-require("includes/common.php");
+require("includes/common.php"); 
 session_start();
 if (isset($_GET['id']) && is_numeric($_GET['id'])) {
     $item_id = $_GET['id'];
