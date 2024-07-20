@@ -18,7 +18,7 @@ if($num==0){
 }else{
     $row = mysqli_fetch_array($result);
     $_SESSION['email'] = $row['email_id'];
-    $_SESSION['user_id'] = $row['id'];
+    $_SESSION['user_id'] = $row['id']; 
     header('location:products.php');
     
 
