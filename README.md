@@ -8,6 +8,12 @@ Also used [formspree](https://formspree.io) in contact form.
 - [HTML](https://www.w3schools.com/html/default.asp)
 - [CSS](https://www.w3schools.com/css/default.asp)
 
+Set Up Instructions For Running Website
+Start the Apache and MySQL modules using the XAMPP controller.
+Open the phpMyAdmin and create a database "ecommerce".
+Import the ecommerce.sql file present in the zip folder.
+Open the htdocs folder in the xampp folder. Copy paste the folder Planet-Shopify-ecommerce-website.
+Open the browser (chrome), type localhost/Planet-Shopify-ecommerce-website and you should see the index page of the website.
 
 
 
